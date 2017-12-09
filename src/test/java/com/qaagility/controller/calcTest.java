@@ -8,12 +8,14 @@ public class calcTest{
     System.out.println("Slow");
   }
   
+  @Before
   public void testSlower(){
-    System.out.println("Slower");
+    System.out.println("Before");
   }
   
+  @After
   public void testFast(){
-    System.out.println("Fast");
+    System.out.println("After");
   }
   
   @Test
