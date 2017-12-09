@@ -1,6 +1,6 @@
 package com.qaagility.controller;
 
-import org.juint.Test;
+import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class calcTest{
