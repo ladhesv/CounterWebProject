@@ -5,21 +5,21 @@ import static org.junit.Assert.assertEquals;
 
 public class calcTest{
   public void testSlow(){
-    Syste.out.println("Slow");
+    System.out.println("Slow");
   }
   
   public void testSlower(){
-    Syste.out.println("Slower");
+    System.out.println("Slower");
   }
   
   public void testFast(){
-    Syste.out.println("Fast");
+    System.out.println("Fast");
   }
   
   @Test
   public void testCalc(){
     assertEquals("Result",9,9);
-    //Syste.out.println("TestCalc =" +9*9);
+    //System.out.println("TestCalc =" +9*9);
   }
   
 }
