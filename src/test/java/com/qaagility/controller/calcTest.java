@@ -23,4 +23,10 @@ public class calcTest{
     //System.out.println("TestCalc =" +9*9);
   }
   
+  @Test
+  public void testCalcFail(){
+    //assertEquals("Result",9,9);
+    assertEquals("Result",10,new calc().mul());
+    //System.out.println("TestCalc =" +9*9);
+}
 }
