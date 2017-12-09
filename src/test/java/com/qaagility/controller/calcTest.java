@@ -30,7 +30,7 @@ public class calcTest{
   @Test
   public void testCalcFail(){
     //assertEquals("Result",9,9);
-    assertEquals("Result",10,new calc().mul());
+    assertEquals("Result",18,new calc().mul());
     //System.out.println("TestCalc =" +9*9);
 }
 }
